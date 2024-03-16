@@ -44,7 +44,7 @@ frontend http
 frontend https
 	mode http
 	timeout client 10s
-	bind *:443 ssl crt  /etc/letsencrypt/live/www.annemarie535257.tech/fullchain.pem
+	bind *:443 ssl crt  /etc/letsencrypt/live/www.davedesigner.tech/fullchain.pem
 	default_backend allServers
 
 
